@@ -7,9 +7,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "_lint": "./node_modules/.bin/eslint -c .eslintrc.json './src/**/*.js' './config/**/*.js'",
+    "_lint": "eslint -c .eslintrc.json './src/**/*.js' './config/**/*.js'",
     "check-staged": "lint-staged",
-    "lint": "yarn run _lint --fix"
+    "lint": "yarn _lint --fix"
   },
   "husky": {
     "hooks": {
