@@ -7,11 +7,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "js_frmt": "./node_modules/.bin/prettier --config ${PWD}/.prettierrc --write './src/js/**/*.js'"
+    "_lint": "./node_modules/.bin/eslint -c .eslintrc.json './src/**/*.js' './config/**/*.js'",
+    "lint": "yarn run _lint --fix"
   },
   "devDependencies": {
+    "eslint": "^5",
     "eslint-config-prettier": "^3",
-    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-import-resolver-webpack": "^0",
+    "eslint-plugin-import": "^2",
     "eslint-plugin-prettier": "^2",
     "prettier": "^1",
     "typescript": "^3"

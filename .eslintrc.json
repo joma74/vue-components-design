@@ -12,6 +12,13 @@
     "es6": true,
     "browser": true
   },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./config/webpack-common-config.js"
+      }
+    }
+  },
   "rules": {
     "no-cond-assign": 2,
     "no-constant-condition": 1,
