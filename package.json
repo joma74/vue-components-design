@@ -1,0 +1,19 @@
+{
+  "name": "vue-components-design",
+  "version": "0.0.1",
+  "description": "after adam wathans component design course",
+  "main": "index.js",
+  "author": "joma74 <dev-mails@gmx.net>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "js_frmt": "./node_modules/.bin/prettier --config ${PWD}/.prettierrc --write './src/js/**/*.js'"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^3",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-prettier": "^2",
+    "prettier": "^1",
+    "typescript": "^3"
+  }
+}
