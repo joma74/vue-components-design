@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./target",
+    "allowJs": true,
+    "baseUrl": "./src",
+    "checkJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "jsx": "preserve",
+    "lib": ["es6", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "pretty": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["node"]
+  },
+  "compileOnSave": false,
+  "include": ["./**/*.js", "./**/*.ts", "./**/*.tsx"],
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "typeAcquisition": {
+    "enable": false
+  }
+}

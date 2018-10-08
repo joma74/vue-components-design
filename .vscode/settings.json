@@ -1,4 +1,8 @@
 {
-  "prettier.eslintIntegration": false,
-  "prettier.ignorePath": ".prettierignore"
+  "prettier.eslintIntegration": true,
+  "prettier.ignorePath": ".prettierignore",
+  "eslint.enable": false,
+  "prettier.requireConfig": false,
+  "tslint.jsEnable": true,
+  "prettier.tslintIntegration": true
 }
