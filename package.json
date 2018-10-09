@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "tsc_validate_watch": "yarn tsc_validate_once -- --watch",
-    "tsc_validate_once": "node_modules/typescript/bin/tsc --project ./tsconfig.json --noEmit true --traceResolution true",
+    "tsc_validate_once": "node_modules/typescript/bin/tsc --project ./tsconfig.json --noEmit true",
     "_lint-js": "tslint --project '.' 'src/**/*.ts' 'src/**/*.tsx' './config/**/*.js'",
     "lint-js-fix": "yarn run _lint --fix",
     "check-staged": "lint-staged"
