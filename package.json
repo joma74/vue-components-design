@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "tsc_validate_watch": "node_modules/typescript/bin/tsc --project ./tsconfig.json --noEmit true --traceResolution true --watch",
+    "tsc_validate_watch": "yarn tsc_validate_once -- --watch",
+    "tsc_validate_once": "node_modules/typescript/bin/tsc --project ./tsconfig.json --noEmit true --traceResolution true",
     "_lint": "tslint --project '.' 'src/**/*.ts' 'src/**/*.tsx' './config/**/*.js'",
     "check-staged": "lint-staged",
     "lint": "yarn run _lint --fix"
