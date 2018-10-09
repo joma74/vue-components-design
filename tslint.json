@@ -48,7 +48,7 @@
     "no-var-keyword": true,
     "object-curly-spacing": [true, "always"],
     "object-literal-shorthand": true,
-    "prefer-const": [true, { "destructuring": "all" }],
+    "prefer-const": true,
     "switch-default": true,
     "ter-arrow-spacing": true,
     "ter-no-mixed-spaces-and-tabs": true,
