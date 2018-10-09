@@ -11,5 +11,6 @@ class A {
 let a = new A()
 
 a.arr.forEach((element) => {
+  const b = null
   element++
 })
