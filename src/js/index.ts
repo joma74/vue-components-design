@@ -8,7 +8,7 @@ class A {
   }
 }
 
-const a = new A()
+let a = new A()
 
 a.arr.forEach((element) => {
   element++
